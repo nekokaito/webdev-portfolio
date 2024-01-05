@@ -45,6 +45,9 @@ nav a {
 }
 
 /* header section styles */
+main section {
+    margin-top: 150px;
+}
 
 .main-title {
     font-size: 45px;
@@ -109,17 +112,18 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section styles */
 
 .about {
     padding: 130px;
     border-radius: 10px;
-background: #FFF8F3;
-margin: 130px 0;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
 
 .section-title {
@@ -130,40 +134,90 @@ margin: 130px 0;
     font-weight: 700;
     line-height: normal;
 }
+
 .section-dec {
- color: var(--Dark-03, #757575);
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
+
 .info-container {
     display: flex;
     justify-content: space-around;
 }
+
 .info {
     text-align: center;
-    
+
 }
+
 .info-title {
-font-weight: normal;
-color: var(--Dark-03, #757575);
-text-align: center;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
+    font-weight: normal;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
 }
+
 .info-des {
     font-weight: bold;
-color: var(--Dark-02, #474747);
-font-family: Open Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px;
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
+
 #what-i-do-des {
     padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+}
+
+.skill {
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    gap: 24px;
+}
+
+.skill-title {
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.skill-des {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+
+}
+
+/* resume styles */
+
+.resume-column-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
