@@ -14,15 +14,24 @@
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    color: white;
+    padding: 18px 30px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* nav related task */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -41,4 +50,17 @@ nav a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+.main-header {
+    background-color: #FFF8F3;;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture {
+    width: 584px;
+   height: 676px;
+
 }
