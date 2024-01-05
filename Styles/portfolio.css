@@ -144,10 +144,26 @@ line-height: 30px; /* 166.667% */
 }
 .info {
     text-align: center;
+    
 }
 .info-title {
-    font-weight: normal;
+font-weight: normal;
+color: var(--Dark-03, #757575);
+text-align: center;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
 }
 .info-des {
     font-weight: bold;
+color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+#what-i-do-des {
+    padding: 30px 150px;
 }
