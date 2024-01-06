@@ -25,6 +25,7 @@
 
 .btn-primary:hover {
     background-color: #9c82b6;
+    box-shadow: 0px 0px 25px #ae77e5;
 }
 
 
@@ -49,7 +50,22 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
+nav a:hover{
+   background-color: #dddddd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* header section styles */
 main section {
@@ -116,6 +132,23 @@ main section {
 
 .banner-content {
     max-width: 500px;
+}
+
+button.btn-contact {
+    border-radius: 5px;
+    background: #ffffff;
+    border: 1px solid #CF9FFF;
+    color: #CF9FFF;;
+    padding: 18px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+button.btn-contact:hover {
+    background-color: #9c82b6;
+    box-shadow: 0px 0px 25px #ae77e5;
+    color: #FFF;
 }
 
 /* main section styles */
