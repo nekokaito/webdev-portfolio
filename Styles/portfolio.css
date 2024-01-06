@@ -5,7 +5,7 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-   
+
 }
 
 .primary-text {
@@ -20,7 +20,13 @@
     padding: 18px 30px;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
+
+.btn-primary:hover {
+    background-color: #9c82b6;
+}
+
 
 /* nav related task */
 nav {
@@ -273,42 +279,58 @@ main {
 
 .social-links {
     margin-top: 50px;
-    
+
 }
+
 .social-links a {
     margin-right: 25px;
-    
-    
+
+
 }
 
 
-footer{
+.footer-social {
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 230px 149px;
     gap: 100px;
-  
+
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
-    
+
 }
-.contact input[type="text"], .contact input[type="email"], textarea{
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
-color: var(--Dark-03, #757575);
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-border: 0;
-border-radius: 5px;
-background: var(--White-Color, #FFF);
-width: 100%;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    border: 0;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    width: 100%;
 }
-/* #submit-btn{
-    background: #CF9FFF; !important
-    color: white; !important
-} */
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--Dark-02, #474747);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
