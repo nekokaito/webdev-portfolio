@@ -379,11 +379,27 @@ textarea {
     #what-i-do-des {
         padding: 20px;
     }
-
-
-
     .skill-container {
         display: flex;
         flex-direction: column;
     }
+
+    .resume-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-social {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column {
+        width: 100%;
+    
+    }
+    .contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    width: 80%;
+}
+    
 }
