@@ -222,6 +222,7 @@ main {
 
 .skill-container {
     display: flex;
+    
 }
 
 .skill {
@@ -366,4 +367,23 @@ textarea {
     font-weight: 400;
     line-height: 28px;
     /* 175% */
+}
+/* Responsive */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {    
+    
+    #what-i-do-des {
+        padding: 20px;
+    }
+
+
+
+    .skill-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
