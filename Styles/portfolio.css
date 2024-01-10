@@ -375,6 +375,13 @@ textarea {
 }
 
 @media screen and (max-width:576px) {    
+
+    .about {
+        padding: 30px;
+    }
+    .info-container {
+        flex-direction: column;
+    }
     
     #what-i-do-des {
         padding: 20px;
